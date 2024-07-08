@@ -1,0 +1,27 @@
+.app-container {
+    text-align: center;
+    margin: 20px;
+}
+
+.error-message {
+    color: red;
+}
+
+.results-table-container {
+    text-align: center;
+}
+
+table {
+    margin: 0 auto;
+    border-collapse: collapse;
+    width: 80%;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}

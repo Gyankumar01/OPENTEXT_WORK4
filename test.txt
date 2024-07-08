@@ -1,0 +1,24 @@
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ----------------< org.example:ThirdPartyLibraryUpgrade >----------------
+[INFO] Building ThirdPartyLibraryUpgrade 1.0-SNAPSHOT
+[INFO]   from pom.xml
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions:2.17.0:display-dependency-updates (default-cli) @ ThirdPartyLibraryUpgrade ---
+[INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   jakarta.servlet:jakarta.servlet-api ................... 5.0.0 -> 6.1.0
+[INFO]   javax.servlet:javax.servlet-api ....................... 3.0.1 -> 4.0.1
+[INFO]   org.apache.logging.log4j:log4j-core ............ 2.23.1 -> 3.0.0-beta2
+[INFO]   org.springframework.boot:spring-boot-starter-logging ...
+[INFO]                                                           3.3.0 -> 3.3.1
+[INFO]   org.springframework.boot:spring-boot-starter-thymeleaf ...
+[INFO]                                                           3.3.0 -> 3.3.1
+[INFO]   org.springframework.boot:spring-boot-starter-web ...... 3.3.0 -> 3.3.1
+[INFO] 
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.680 s
+[INFO] Finished at: 2024-07-08T11:40:43+05:30
+[INFO] ------------------------------------------------------------------------
