@@ -1,231 +1,946 @@
-2024-07-08T09:25:47.335+05:30  INFO 21272 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 21272 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T09:25:47.348+05:30  INFO 21272 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T09:25:48.889+05:30  INFO 21272 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T09:25:48.905+05:30  INFO 21272 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T09:25:48.905+05:30  INFO 21272 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T09:25:48.971+05:30  INFO 21272 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T09:25:48.972+05:30  INFO 21272 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1545 ms
-2024-07-08T09:25:49.645+05:30  WARN 21272 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T09:25:49.812+05:30  INFO 21272 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T09:25:49.825+05:30  INFO 21272 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.29 seconds (process running for 3.826)
-2024-07-08T09:26:18.911+05:30  INFO 21272 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T09:26:18.911+05:30  INFO 21272 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T09:26:18.912+05:30  INFO 21272 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-07-08T09:29:24.094+05:30  INFO 5220 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 5220 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T09:29:24.097+05:30  INFO 5220 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T09:29:25.477+05:30  INFO 5220 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T09:29:25.491+05:30  INFO 5220 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T09:29:25.491+05:30  INFO 5220 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T09:29:25.574+05:30  INFO 5220 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T09:29:25.574+05:30  INFO 5220 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1400 ms
-2024-07-08T09:29:26.178+05:30  WARN 5220 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T09:29:26.257+05:30  INFO 5220 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T09:29:26.265+05:30  INFO 5220 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.017 seconds (process running for 3.519)
-2024-07-08T09:29:39.487+05:30  INFO 5220 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T09:29:39.487+05:30  INFO 5220 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T09:29:39.487+05:30  INFO 5220 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-07-08T09:31:35.343+05:30  INFO 9632 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 9632 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T09:31:35.346+05:30  INFO 9632 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T09:31:36.730+05:30  INFO 9632 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T09:31:36.753+05:30  INFO 9632 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T09:31:36.753+05:30  INFO 9632 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T09:31:36.824+05:30  INFO 9632 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T09:31:36.825+05:30  INFO 9632 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1409 ms
-2024-07-08T09:31:37.299+05:30  WARN 9632 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T09:31:37.523+05:30  INFO 9632 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T09:31:37.532+05:30  INFO 9632 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 2.98 seconds (process running for 3.526)
-2024-07-08T09:31:54.152+05:30  INFO 9632 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T09:31:54.152+05:30  INFO 9632 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T09:31:54.152+05:30  INFO 9632 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-07-08T10:03:02.222+05:30  INFO 21104 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 21104 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T10:03:02.224+05:30  INFO 21104 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T10:03:03.508+05:30  INFO 21104 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T10:03:03.523+05:30  INFO 21104 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T10:03:03.523+05:30  INFO 21104 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T10:03:03.582+05:30  INFO 21104 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T10:03:03.583+05:30  INFO 21104 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1292 ms
-2024-07-08T10:03:04.100+05:30  WARN 21104 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T10:03:04.176+05:30  INFO 21104 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T10:03:04.183+05:30  INFO 21104 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 2.829 seconds (process running for 3.442)
-2024-07-08T10:03:20.223+05:30  INFO 21104 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T10:03:20.223+05:30  INFO 21104 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T10:03:20.223+05:30  INFO 21104 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-07-08T10:11:40.579+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 7492 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T10:11:40.582+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T10:11:41.973+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T10:11:41.999+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T10:11:42.000+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T10:11:42.073+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T10:11:42.075+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1418 ms
-2024-07-08T10:11:42.575+05:30  WARN 7492 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T10:11:42.644+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T10:11:42.656+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 2.894 seconds (process running for 3.418)
-2024-07-08T10:11:56.320+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T10:11:56.320+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T10:11:56.327+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-07-08T10:12:00.603+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   jakarta.servlet:jakarta.servlet-api, Current Version: 5.0.0, New Version: 6.1.0
-2024-07-08T10:12:00.603+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   javax.servlet:javax.servlet-api, Current Version: 3.0.1, New Version: 4.0.1
-2024-07-08T10:12:00.603+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.apache.logging.log4j:log4j-core, Current Version: 2.23.1, New Version: 3.0.0-beta2
-2024-07-08T10:12:00.619+05:30  INFO 7492 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.springframework.boot:spring-boot-starter-web, Current Version: 3.3.0, New Version: 3.3.1
-2024-07-08T10:13:42.663+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 17672 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T10:13:42.665+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T10:13:44.144+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T10:13:44.160+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T10:13:44.160+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T10:13:44.270+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T10:13:44.271+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1528 ms
-2024-07-08T10:13:44.878+05:30  WARN 17672 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T10:13:45.003+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T10:13:45.013+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.159 seconds (process running for 3.955)
-2024-07-08T10:13:53.038+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T10:13:53.038+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T10:13:53.038+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-07-08T10:15:21.409+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   jakarta.servlet:jakarta.servlet-api, Current Version: 5.0.0, New Version: 6.1.0
-2024-07-08T10:15:21.419+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   javax.servlet:javax.servlet-api, Current Version: 3.0.1, New Version: 4.0.1
-2024-07-08T10:15:21.466+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.apache.logging.log4j:log4j-core, Current Version: 2.23.1, New Version: 3.0.0-beta2
-2024-07-08T10:15:21.474+05:30  INFO 17672 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.springframework.boot:spring-boot-starter-web, Current Version: 3.3.0, New Version: 3.3.1
-2024-07-08T10:25:49.419+05:30  INFO 13528 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 13528 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T10:25:49.422+05:30  INFO 13528 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T10:25:50.835+05:30  INFO 13528 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T10:25:50.851+05:30  INFO 13528 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T10:25:50.851+05:30  INFO 13528 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T10:25:50.923+05:30  INFO 13528 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T10:25:50.923+05:30  INFO 13528 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1421 ms
-2024-07-08T10:25:51.482+05:30  WARN 13528 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T10:25:51.592+05:30  INFO 13528 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T10:25:51.603+05:30  INFO 13528 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.082 seconds (process running for 3.653)
-2024-07-08T10:26:07.005+05:30  INFO 13528 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T10:26:07.005+05:30  INFO 13528 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T10:26:07.021+05:30  INFO 13528 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 16 ms
-2024-07-08T10:28:29.263+05:30  INFO 5624 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 5624 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T10:28:29.265+05:30  INFO 5624 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T10:28:30.573+05:30  INFO 5624 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T10:28:30.585+05:30  INFO 5624 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T10:28:30.586+05:30  INFO 5624 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T10:28:30.648+05:30  INFO 5624 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T10:28:30.648+05:30  INFO 5624 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1311 ms
-2024-07-08T10:28:31.294+05:30  WARN 5624 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T10:28:31.434+05:30  INFO 5624 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T10:28:31.449+05:30  INFO 5624 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 2.939 seconds (process running for 3.441)
-2024-07-08T10:28:46.706+05:30  INFO 5624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T10:28:46.706+05:30  INFO 5624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T10:28:46.706+05:30  INFO 5624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-07-08T10:29:21.222+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 288 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T10:29:21.224+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T10:29:22.719+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T10:29:22.737+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T10:29:22.737+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T10:29:22.815+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T10:29:22.816+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1502 ms
-2024-07-08T10:29:23.378+05:30  WARN 288 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T10:29:23.514+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T10:29:23.523+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.082 seconds (process running for 3.651)
-2024-07-08T10:29:34.666+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T10:29:34.666+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T10:29:34.666+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-07-08T10:29:38.734+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   jakarta.servlet:jakarta.servlet-api, Current Version: 5.0.0, New Version: 6.1.0
-2024-07-08T10:29:38.734+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   javax.servlet:javax.servlet-api, Current Version: 3.0.1, New Version: 4.0.1
-2024-07-08T10:29:38.734+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.apache.logging.log4j:log4j-core, Current Version: 2.23.1, New Version: 3.0.0-beta2
-2024-07-08T10:29:38.749+05:30  INFO 288 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.springframework.boot:spring-boot-starter-web, Current Version: 3.3.0, New Version: 3.3.1
-2024-07-08T10:32:34.151+05:30  INFO 13588 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 13588 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T10:32:34.153+05:30  INFO 13588 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T10:32:35.432+05:30  INFO 13588 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T10:32:35.447+05:30  INFO 13588 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T10:32:35.447+05:30  INFO 13588 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T10:32:35.532+05:30  INFO 13588 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T10:32:35.533+05:30  INFO 13588 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1310 ms
-2024-07-08T10:32:36.011+05:30  WARN 13588 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T10:32:36.167+05:30  INFO 13588 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T10:32:36.178+05:30  INFO 13588 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 2.835 seconds (process running for 3.38)
-2024-07-08T10:32:49.777+05:30  INFO 13588 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T10:32:49.777+05:30  INFO 13588 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T10:32:49.777+05:30  INFO 13588 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-07-08T10:41:40.001+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 2384 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T10:41:40.003+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T10:41:41.435+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T10:41:41.450+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T10:41:41.451+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T10:41:41.528+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T10:41:41.529+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1452 ms
-2024-07-08T10:41:42.026+05:30  WARN 2384 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T10:41:42.139+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T10:41:42.147+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 2.949 seconds (process running for 3.435)
-2024-07-08T10:41:53.041+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T10:41:53.041+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T10:41:53.047+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-07-08T10:41:57.420+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   jakarta.servlet:jakarta.servlet-api, Current Version: 5.0.0, New Version: 6.1.0
-2024-07-08T10:41:57.420+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   javax.servlet:javax.servlet-api, Current Version: 3.0.1, New Version: 4.0.1
-2024-07-08T10:41:57.420+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.apache.logging.log4j:log4j-core, Current Version: 2.23.1, New Version: 3.0.0-beta2
-2024-07-08T10:41:57.420+05:30  INFO 2384 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.springframework.boot:spring-boot-starter-web, Current Version: 3.3.0, New Version: 3.3.1
-2024-07-08T10:53:20.468+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 15856 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T10:53:20.470+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T10:53:21.872+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T10:53:21.891+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T10:53:21.891+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T10:53:21.961+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T10:53:21.962+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1414 ms
-2024-07-08T10:53:22.466+05:30  WARN 15856 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T10:53:22.654+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T10:53:22.677+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.08 seconds (process running for 3.667)
-2024-07-08T10:53:38.446+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T10:53:38.446+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T10:53:38.457+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
-2024-07-08T10:53:42.820+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   jakarta.servlet:jakarta.servlet-api, Current Version: 5.0.0, New Version: 6.1.0
-2024-07-08T10:53:42.828+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   javax.servlet:javax.servlet-api, Current Version: 3.0.1, New Version: 4.0.1
-2024-07-08T10:53:42.828+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.apache.logging.log4j:log4j-core, Current Version: 2.23.1, New Version: 3.0.0-beta2
-2024-07-08T10:53:42.834+05:30  INFO 15856 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.springframework.boot:spring-boot-starter-web, Current Version: 3.3.0, New Version: 3.3.1
-2024-07-08T11:03:11.313+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 20264 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T11:03:11.315+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T11:03:13.023+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T11:03:13.042+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T11:03:13.043+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T11:03:13.173+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T11:03:13.173+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1785 ms
-2024-07-08T11:03:13.730+05:30  WARN 20264 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T11:03:13.833+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T11:03:13.846+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.4 seconds (process running for 4.004)
-2024-07-08T11:03:38.747+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T11:03:38.748+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T11:03:38.750+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2024-07-08T11:03:43.230+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   jakarta.servlet:jakarta.servlet-api, Current Version: 5.0.0, New Version: 6.1.0
-2024-07-08T11:03:43.235+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   javax.servlet:javax.servlet-api, Current Version: 3.0.1, New Version: 4.0.1
-2024-07-08T11:03:43.237+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.apache.logging.log4j:log4j-core, Current Version: 2.23.1, New Version: 3.0.0-beta2
-2024-07-08T11:03:43.240+05:30  INFO 20264 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.springframework.boot:spring-boot-starter-web, Current Version: 3.3.0, New Version: 3.3.1
-2024-07-08T11:08:16.382+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 13924 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T11:08:16.385+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T11:08:17.894+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T11:08:17.910+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T11:08:17.910+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T11:08:17.970+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T11:08:17.970+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1502 ms
-2024-07-08T11:08:18.580+05:30  WARN 13924 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T11:08:18.645+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T11:08:18.656+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.108 seconds (process running for 3.716)
-2024-07-08T11:08:32.049+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T11:08:32.051+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T11:08:32.054+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
-2024-07-08T11:08:36.533+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   jakarta.servlet:jakarta.servlet-api, Current Version: 5.0.0, New Version: 6.1.0
-2024-07-08T11:08:36.550+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   javax.servlet:javax.servlet-api, Current Version: 3.0.1, New Version: 4.0.1
-2024-07-08T11:08:36.551+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.apache.logging.log4j:log4j-core, Current Version: 2.23.1, New Version: 3.0.0-beta2
-2024-07-08T11:08:36.551+05:30  INFO 13924 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.springframework.boot:spring-boot-starter-web, Current Version: 3.3.0, New Version: 3.3.1
-2024-07-08T11:15:44.138+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 5100 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
-2024-07-08T11:15:44.142+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
-2024-07-08T11:15:45.517+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
-2024-07-08T11:15:45.532+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2024-07-08T11:15:45.532+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
-2024-07-08T11:15:45.619+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2024-07-08T11:15:45.620+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1404 ms
-2024-07-08T11:15:46.185+05:30  WARN 5100 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
-2024-07-08T11:15:46.449+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
-2024-07-08T11:15:46.461+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.158 seconds (process running for 3.66)
-2024-07-08T11:16:03.749+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2024-07-08T11:16:03.750+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2024-07-08T11:16:03.752+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2024-07-08T11:16:08.270+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   jakarta.servlet:jakarta.servlet-api, Current Version: 5.0.0, New Version: 6.1.0
-2024-07-08T11:16:08.273+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   javax.servlet:javax.servlet-api, Current Version: 3.0.1, New Version: 4.0.1
-2024-07-08T11:16:08.273+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.apache.logging.log4j:log4j-core, Current Version: 2.23.1, New Version: 3.0.0-beta2
-2024-07-08T11:16:08.276+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.springframework.boot:spring-boot-starter-web, Current Version: 3.3.0, New Version: 3.3.1
-2024-07-08T11:40:43.593+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   jakarta.servlet:jakarta.servlet-api, Current Version: 5.0.0, New Version: 6.1.0
-2024-07-08T11:40:43.596+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   javax.servlet:javax.servlet-api, Current Version: 3.0.1, New Version: 4.0.1
-2024-07-08T11:40:43.596+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.apache.logging.log4j:log4j-core, Current Version: 2.23.1, New Version: 3.0.0-beta2
-2024-07-08T11:40:43.597+05:30  INFO 5100 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Processed artifact: [INFO]   org.springframework.boot:spring-boot-starter-web, Current Version: 3.3.0, New Version: 3.3.1
+2024-07-16T08:41:26.264+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 5192 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T08:41:26.281+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T08:41:27.922+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T08:41:27.938+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T08:41:27.938+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-16T08:41:28.001+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T08:41:28.001+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1623 ms
+2024-07-16T08:41:28.521+05:30  WARN 5192 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T08:41:28.745+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T08:41:28.745+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.359 seconds (process running for 4.032)
+2024-07-16T08:46:04.755+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T08:46:04.755+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T08:46:04.755+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-16T08:46:04.943+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File upload initiated: pom.xml
+2024-07-16T08:46:04.943+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Deleting existing temporary pom.xml file.
+2024-07-16T08:46:10.695+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T08:46:16.434+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="jakarta.servlet:jakarta.servlet-api" -DdepVersion="6.1.0"
+2024-07-16T08:46:20.298+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Updated jakarta.servlet:jakarta.servlet-api to version 6.1.0 successfully.
+2024-07-16T08:46:20.298+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="javax.servlet:javax.servlet-api" -DdepVersion="4.0.1"
+2024-07-16T08:46:23.997+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Updated javax.servlet:javax.servlet-api to version 4.0.1 successfully.
+2024-07-16T08:46:24.028+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="jakarta.servlet:jakarta.servlet-api" -DdepVersion="6.1.0"
+2024-07-16T08:46:27.634+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Updated jakarta.servlet:jakarta.servlet-api to version 6.1.0 successfully.
+2024-07-16T08:46:27.634+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="javax.servlet:javax.servlet-api" -DdepVersion="4.0.1"
+2024-07-16T08:46:31.255+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Updated javax.servlet:javax.servlet-api to version 4.0.1 successfully.
+2024-07-16T08:47:31.567+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] c.tplu.controller.FileUploadController   : File upload initiated: pom.xml
+2024-07-16T08:47:31.567+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Deleting existing temporary pom.xml file.
+2024-07-16T08:47:35.686+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T08:47:41.141+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="jakarta.servlet:jakarta.servlet-api" -DdepVersion="6.1.0"
+2024-07-16T08:47:44.521+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Updated jakarta.servlet:jakarta.servlet-api to version 6.1.0 successfully.
+2024-07-16T08:47:44.521+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="javax.servlet:javax.servlet-api" -DdepVersion="4.0.1"
+2024-07-16T08:47:48.083+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Updated javax.servlet:javax.servlet-api to version 4.0.1 successfully.
+2024-07-16T08:47:48.108+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-8] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="jakarta.servlet:jakarta.servlet-api" -DdepVersion="6.1.0"
+2024-07-16T08:47:51.516+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-8] com.tplu.service.FileProcessingService   : Updated jakarta.servlet:jakarta.servlet-api to version 6.1.0 successfully.
+2024-07-16T08:47:51.516+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-8] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="javax.servlet:javax.servlet-api" -DdepVersion="4.0.1"
+2024-07-16T08:47:54.836+05:30  INFO 5192 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-8] com.tplu.service.FileProcessingService   : Updated javax.servlet:javax.servlet-api to version 4.0.1 successfully.
+2024-07-16T11:00:25.081+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 20224 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T11:00:25.094+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T11:00:26.405+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T11:00:26.420+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T11:00:26.420+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-16T11:00:26.482+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T11:00:26.482+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1322 ms
+2024-07-16T11:00:27.004+05:30  WARN 20224 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T11:00:27.161+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T11:00:27.161+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 2.875 seconds (process running for 3.395)
+2024-07-16T11:09:10.899+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T11:09:10.932+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T11:09:10.937+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2024-07-16T11:09:11.096+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File upload initiated: pom.xml
+2024-07-16T11:09:11.099+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Deleting existing temporary pom.xml file.
+2024-07-16T11:09:15.699+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T11:09:22.470+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="jakarta.servlet:jakarta.servlet-api" -DdepVersion="6.1.0"
+2024-07-16T11:09:26.375+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Updated jakarta.servlet:jakarta.servlet-api to version 6.1.0 successfully.
+2024-07-16T11:09:26.376+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="javax.servlet:javax.servlet-api" -DdepVersion="4.0.1"
+2024-07-16T11:09:30.512+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Updated javax.servlet:javax.servlet-api to version 4.0.1 successfully.
+2024-07-16T11:09:30.533+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="jakarta.servlet:jakarta.servlet-api" -DdepVersion="6.1.0"
+2024-07-16T11:09:34.288+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Updated jakarta.servlet:jakarta.servlet-api to version 6.1.0 successfully.
+2024-07-16T11:09:34.290+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="javax.servlet:javax.servlet-api" -DdepVersion="4.0.1"
+2024-07-16T11:09:38.101+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Updated javax.servlet:javax.servlet-api to version 4.0.1 successfully.
+2024-07-16T11:10:16.628+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] c.tplu.controller.FileUploadController   : File upload initiated: pom.xml
+2024-07-16T11:10:16.630+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Deleting existing temporary pom.xml file.
+2024-07-16T11:10:21.525+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T11:10:26.717+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-web" -DdepVersion="3.3.1"
+2024-07-16T11:10:31.052+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-web to version 3.3.1 successfully.
+2024-07-16T11:10:31.065+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-8] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-web" -DdepVersion="3.3.1"
+2024-07-16T11:10:34.847+05:30  INFO 20224 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-8] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-web to version 3.3.1 successfully.
+2024-07-16T11:18:57.408+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 12216 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T11:18:57.412+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T11:18:58.809+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T11:18:58.828+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T11:18:58.828+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-16T11:18:58.891+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T11:18:58.892+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1404 ms
+2024-07-16T11:18:59.455+05:30  WARN 12216 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T11:18:59.538+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T11:18:59.550+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 2.931 seconds (process running for 3.468)
+2024-07-16T11:19:25.179+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T11:19:25.224+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T11:19:25.226+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-16T11:19:25.383+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File upload initiated: gyan.txt
+2024-07-16T11:19:25.388+05:30  INFO 12216 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Deleting existing temporary pom.xml file.
+2024-07-16T11:19:28.148+05:30 ERROR 12216 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Failed to execute Maven command. Exit code: 1. Error: 
+2024-07-16T11:19:28.153+05:30 ERROR 12216 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : Error during file processing: Failed to execute Maven command. Exit code: 1. Error: 
+2024-07-16T11:44:00.052+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 8716 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T11:44:00.054+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T11:44:01.591+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T11:44:01.606+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T11:44:01.606+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-16T11:44:01.671+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T11:44:01.672+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1540 ms
+2024-07-16T11:44:02.280+05:30  WARN 8716 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T11:44:02.371+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T11:44:02.386+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.217 seconds (process running for 3.843)
+2024-07-16T11:44:05.038+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T11:44:05.038+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T11:44:05.039+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-16T11:44:05.119+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File upload initiated: pom.xml
+2024-07-16T11:44:05.121+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Deleting existing temporary pom.xml file.
+2024-07-16T11:44:11.104+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T11:44:19.152+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="junit:junit-dep" -DdepVersion="4.11"
+2024-07-16T11:44:23.679+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Updated junit:junit-dep to version 4.11 successfully.
+2024-07-16T11:44:23.680+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="org.apache.logging.log4j:log4j-core" -DdepVersion="3.0.0-beta2"
+2024-07-16T11:44:28.059+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Updated org.apache.logging.log4j:log4j-core to version 3.0.0-beta2 successfully.
+2024-07-16T11:44:28.081+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="junit:junit-dep" -DdepVersion="4.11"
+2024-07-16T11:44:32.266+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Updated junit:junit-dep to version 4.11 successfully.
+2024-07-16T11:44:32.267+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\AppData\Local\Temp\pom.xml" versions:use-dep-version -Dincludes="org.apache.logging.log4j:log4j-core" -DdepVersion="3.0.0-beta2"
+2024-07-16T11:44:36.577+05:30  INFO 8716 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Updated org.apache.logging.log4j:log4j-core to version 3.0.0-beta2 successfully.
+2024-07-16T12:26:12.747+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 16176 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T12:26:12.758+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T12:26:14.354+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T12:26:14.385+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T12:26:14.385+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-16T12:26:14.464+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T12:26:14.464+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1623 ms
+2024-07-16T12:26:15.010+05:30  WARN 16176 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T12:26:15.186+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T12:26:15.216+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.335 seconds (process running for 3.888)
+2024-07-16T12:29:38.177+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T12:29:38.193+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T12:29:38.193+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-16T12:29:38.303+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File upload initiated: pom.xml
+2024-07-16T12:29:42.830+05:30  INFO 16176 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T12:29:48.234+05:30 ERROR 16176 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] c.tplu.controller.FileUploadController   : Unexpected error while updating dependencies
+
+java.util.MissingFormatArgumentException: Format specifier '%s'
+	at java.base/java.util.Formatter.format(Formatter.java:2796) ~[na:na]
+	at java.base/java.util.Formatter.format(Formatter.java:2734) ~[na:na]
+	at java.base/java.lang.String.format(String.java:4432) ~[na:na]
+	at com.tplu.service.FileProcessingService.updateDependencies(FileProcessingService.java:115) ~[classes/:na]
+	at com.tplu.controller.FileUploadController.updateDependencies(FileUploadController.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.tplu.config.SimpleCorsFilter.doFilter(SimpleCorsFilter.java:30) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.tplu.config.SimpleCorsFilter.doFilter(SimpleCorsFilter.java:30) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2024-07-16T12:40:49.899+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 9364 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T12:40:49.899+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T12:40:51.308+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T12:40:51.308+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T12:40:51.308+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-16T12:40:51.371+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T12:40:51.371+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1393 ms
+2024-07-16T12:40:51.830+05:30  WARN 9364 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T12:40:51.925+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T12:40:51.925+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 2.749 seconds (process running for 3.254)
+2024-07-16T12:41:04.293+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T12:41:04.293+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T12:41:04.297+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2024-07-16T12:41:04.525+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T12:41:09.131+05:30  INFO 9364 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T12:47:55.818+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 4656 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T12:47:55.822+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T12:47:57.270+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T12:47:57.284+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T12:47:57.284+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-16T12:47:57.360+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T12:47:57.361+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1468 ms
+2024-07-16T12:47:57.868+05:30  WARN 4656 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T12:47:57.972+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T12:47:57.982+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 2.922 seconds (process running for 3.433)
+2024-07-16T12:48:23.396+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T12:48:23.396+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T12:48:23.396+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-16T12:48:23.553+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T12:48:27.698+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T12:49:23.370+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T12:49:27.778+05:30  INFO 4656 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T12:49:50.753+05:30 ERROR 4656 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] c.tplu.controller.FileUploadController   : Unexpected error while updating dependencies
+
+java.util.MissingFormatArgumentException: Format specifier '%s'
+	at java.base/java.util.Formatter.format(Formatter.java:2796) ~[na:na]
+	at java.base/java.util.Formatter.format(Formatter.java:2734) ~[na:na]
+	at java.base/java.lang.String.format(String.java:4432) ~[na:na]
+	at com.tplu.service.FileProcessingService.updateDependencies(FileProcessingService.java:115) ~[classes/:na]
+	at com.tplu.controller.FileUploadController.updateDependencies(FileUploadController.java:48) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.1.8.jar:6.1.8]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.24.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.tplu.config.SimpleCorsFilter.doFilter(SimpleCorsFilter.java:30) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at com.tplu.config.SimpleCorsFilter.doFilter(SimpleCorsFilter.java:30) ~[classes/:na]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.1.8.jar:6.1.8]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:389) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1741) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.24.jar:10.1.24]
+	at java.base/java.lang.Thread.run(Thread.java:1570) ~[na:na]
+
+2024-07-16T12:58:46.581+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 23624 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T12:58:46.584+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T12:58:47.875+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T12:58:47.889+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T12:58:47.890+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-07-16T12:58:47.961+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T12:58:47.963+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1314 ms
+2024-07-16T12:58:48.521+05:30  WARN 23624 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T12:58:48.679+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T12:58:48.689+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 2.857 seconds (process running for 3.352)
+2024-07-16T12:59:19.537+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T12:59:19.537+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T12:59:19.537+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-16T12:59:19.747+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T12:59:19.747+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T12:59:23.620+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T12:59:23.631+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T12:59:28.104+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-logging" -DdepVersion="3.3.1" 
+2024-07-16T12:59:31.431+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-logging to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-logging:jar:3.3.0 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.552 s
+[INFO] Finished at: 2024-07-16T12:59:31+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T12:59:31.435+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T12:59:31.447+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-logging" -DdepVersion="3.3.1" 
+2024-07-16T12:59:34.833+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-logging to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-logging:jar:3.3.1 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.535 s
+[INFO] Finished at: 2024-07-16T12:59:34+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T12:59:34.833+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T13:01:37.764+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-8] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T13:01:37.764+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-8] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T13:01:42.159+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-8] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T13:01:42.159+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-8] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T13:01:47.426+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-web" -DdepVersion="3.3.1" 
+2024-07-16T13:01:50.958+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-web to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-web:jar:3.3.0 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.589 s
+[INFO] Finished at: 2024-07-16T13:01:50+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T13:01:50.958+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T13:01:50.981+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-10] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-web" -DdepVersion="3.3.1" 
+2024-07-16T13:01:54.587+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-10] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-web to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-web:jar:3.3.1 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.646 s
+[INFO] Finished at: 2024-07-16T13:01:54+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T13:01:54.587+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-10] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T13:03:26.946+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T13:03:26.946+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T13:03:31.064+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T13:03:31.065+05:30  INFO 23624 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T13:05:09.156+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 21820 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T13:05:09.159+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T13:05:10.611+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T13:05:10.627+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T13:05:10.627+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T13:05:10.695+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T13:05:10.696+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1464 ms
+2024-07-16T13:05:11.293+05:30  WARN 21820 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T13:05:11.474+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T13:05:11.483+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.079 seconds (process running for 3.568)
+2024-07-16T13:05:18.857+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T13:05:18.857+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T13:05:18.857+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-16T13:05:19.079+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T13:05:19.079+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T13:05:23.365+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T13:05:23.381+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T13:05:42.579+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] c.tplu.controller.FileUploadController   : File path received: test.xml
+2024-07-16T13:05:42.579+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Processing POM file: test.xml
+2024-07-16T13:05:42.656+05:30 ERROR 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Failed to execute Maven command. Exit code: 1. Error: POM file "test.xml" specified the -f/--file command-line argument does not exist 
+
+2024-07-16T13:05:42.666+05:30 ERROR 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] c.tplu.controller.FileUploadController   : Error during file processing: Failed to execute Maven command. Exit code: 1. Error: POM file "test.xml" specified the -f/--file command-line argument does not exist 
+
+2024-07-16T13:06:10.656+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T13:06:10.656+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T13:06:14.556+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T13:06:14.556+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T13:06:34.321+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T13:06:34.321+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T13:06:38.364+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T13:06:38.368+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T13:09:40.253+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T13:09:40.260+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T13:09:44.351+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T13:09:44.351+05:30  INFO 21820 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T13:12:08.297+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 11412 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T13:12:08.300+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T13:12:09.832+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T13:12:09.862+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T13:12:09.862+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T13:12:09.941+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T13:12:09.942+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1562 ms
+2024-07-16T13:12:10.489+05:30  WARN 11412 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T13:12:10.658+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T13:12:10.668+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.169 seconds (process running for 3.665)
+2024-07-16T13:12:25.376+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T13:12:25.376+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T13:12:25.376+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-16T13:12:25.572+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T13:12:25.583+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T13:12:25.583+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T13:12:29.772+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T13:12:29.789+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T13:19:43.352+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T13:19:43.352+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T13:19:43.352+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T13:19:47.365+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T13:19:47.381+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T13:19:52.100+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-thymeleaf" -DdepVersion="3.3.1" 
+2024-07-16T13:19:55.749+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-thymeleaf to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-thymeleaf:jar:3.3.0 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.589 s
+[INFO] Finished at: 2024-07-16T13:19:55+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T13:19:55.767+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-web" -DdepVersion="3.3.1" 
+2024-07-16T13:19:59.383+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-web to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-web:jar:3.3.0 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.600 s
+[INFO] Finished at: 2024-07-16T13:19:59+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T13:19:59.383+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T13:19:59.416+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-thymeleaf" -DdepVersion="3.3.1" 
+2024-07-16T13:20:02.981+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-thymeleaf to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-thymeleaf:jar:3.3.1 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.550 s
+[INFO] Finished at: 2024-07-16T13:20:02+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T13:20:02.981+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-web" -DdepVersion="3.3.1" 
+2024-07-16T13:20:06.729+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-web to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-web:jar:3.3.1 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.624 s
+[INFO] Finished at: 2024-07-16T13:20:06+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T13:20:06.729+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T13:20:33.698+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T13:20:33.701+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T13:20:33.701+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T13:20:37.833+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T13:20:37.833+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T13:22:01.273+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T13:22:01.274+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T13:22:01.274+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T13:22:05.141+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T13:22:05.144+05:30  INFO 11412 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T13:53:00.128+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 17904 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T13:53:00.132+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T13:53:01.665+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T13:53:01.685+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T13:53:01.685+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T13:53:01.765+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T13:53:01.765+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1562 ms
+2024-07-16T13:53:02.332+05:30  WARN 17904 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T13:53:02.511+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T13:53:02.525+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.224 seconds (process running for 3.807)
+2024-07-16T13:53:07.748+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T13:53:07.748+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T13:53:07.748+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-16T13:53:07.948+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T13:53:07.948+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T13:53:07.948+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T13:53:12.135+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T13:53:12.207+05:30  INFO 17904 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:03:04.948+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 13568 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T14:03:04.950+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T14:03:06.396+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T14:03:06.419+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T14:03:06.419+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T14:03:06.492+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T14:03:06.493+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1481 ms
+2024-07-16T14:03:07.057+05:30  WARN 13568 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T14:03:07.244+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T14:03:07.259+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.107 seconds (process running for 3.634)
+2024-07-16T14:03:38.476+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T14:03:38.476+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T14:03:38.476+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-16T14:03:38.691+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:03:38.707+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T14:03:38.707+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:03:42.926+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:03:42.942+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:03:48.613+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="jakarta.servlet:jakarta.servlet-api" -DdepVersion="6.1.0" 
+2024-07-16T14:03:52.437+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Updated jakarta.servlet:jakarta.servlet-api to 6.1.0: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated jakarta.servlet:jakarta.servlet-api:jar:5.0.0 to version 6.1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.605 s
+[INFO] Finished at: 2024-07-16T14:03:52+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:03:52.437+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-thymeleaf" -DdepVersion="3.3.1" 
+2024-07-16T14:03:56.546+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-thymeleaf to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-thymeleaf:jar:3.3.0 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.841 s
+[INFO] Finished at: 2024-07-16T14:03:56+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:03:56.546+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-web" -DdepVersion="3.3.1" 
+2024-07-16T14:04:00.730+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-web to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-web:jar:3.3.0 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.747 s
+[INFO] Finished at: 2024-07-16T14:04:00+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:04:00.730+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T14:04:00.771+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="jakarta.servlet:jakarta.servlet-api" -DdepVersion="6.1.0" 
+2024-07-16T14:04:04.679+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Updated jakarta.servlet:jakarta.servlet-api to 6.1.0: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated jakarta.servlet:jakarta.servlet-api:jar:6.1.0 to version 6.1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.754 s
+[INFO] Finished at: 2024-07-16T14:04:04+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:04:04.679+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-thymeleaf" -DdepVersion="3.3.1" 
+2024-07-16T14:04:08.636+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-thymeleaf to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-thymeleaf:jar:3.3.1 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.658 s
+[INFO] Finished at: 2024-07-16T14:04:08+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:04:08.636+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-web" -DdepVersion="3.3.1" 
+2024-07-16T14:04:12.287+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-web to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-web:jar:3.3.1 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.590 s
+[INFO] Finished at: 2024-07-16T14:04:12+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:04:12.288+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-5] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T14:06:53.608+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:06:53.609+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T14:06:53.609+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:06:57.688+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:06:57.688+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:07:23.257+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:07:23.257+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T14:07:23.257+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:07:27.297+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:07:27.297+05:30  INFO 13568 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:16:01.790+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 10732 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T14:16:01.793+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T14:16:03.150+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T14:16:03.163+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T14:16:03.163+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T14:16:03.226+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T14:16:03.228+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1368 ms
+2024-07-16T14:16:03.732+05:30  WARN 10732 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T14:16:03.856+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T14:16:03.867+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 2.903 seconds (process running for 3.388)
+2024-07-16T14:16:57.759+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T14:16:57.759+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T14:16:57.759+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-16T14:16:58.013+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:16:58.013+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T14:16:58.013+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:17:02.325+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:17:02.327+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:17:39.734+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:17:39.735+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T14:17:39.735+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:17:43.935+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:17:43.936+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:17:56.496+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:17:56.496+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T14:17:56.496+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:18:00.845+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:18:00.848+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:18:30.383+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] c.tplu.controller.FileUploadController   : File path received: test1.txt
+2024-07-16T14:18:30.383+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] com.tplu.service.FileProcessingService   : Processing POM file: test1.txt
+2024-07-16T14:18:30.398+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f test1.txt versions:display-dependency-updates > test.txt]
+2024-07-16T14:18:30.525+05:30 ERROR 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] com.tplu.service.FileProcessingService   : Failed to execute Maven command. Exit code: 1. Error: POM file "test1.txt" specified the -f/--file command-line argument does not exist 
+
+2024-07-16T14:18:30.525+05:30 ERROR 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-7] c.tplu.controller.FileUploadController   : Error during file processing: Failed to execute Maven command. Exit code: 1. Error: POM file "test1.txt" specified the -f/--file command-line argument does not exist 
+
+2024-07-16T14:18:37.822+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:18:37.822+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Processing POM file: pom.xml
+2024-07-16T14:18:37.822+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:18:42.147+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:18:42.147+05:30  INFO 10732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:30:50.755+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 4120 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T14:30:50.758+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T14:30:52.712+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T14:30:52.729+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T14:30:52.729+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T14:30:52.811+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T14:30:52.811+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1957 ms
+2024-07-16T14:30:53.495+05:30  WARN 4120 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T14:30:53.633+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T14:30:53.643+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.86 seconds (process running for 4.636)
+2024-07-16T14:30:58.177+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T14:30:58.177+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T14:30:58.177+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-16T14:30:58.410+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:30:58.411+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Processing POM file: C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml
+2024-07-16T14:30:58.418+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:31:05.203+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:31:05.211+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:31:23.961+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] c.tplu.controller.FileUploadController   : File path received: test.xml
+2024-07-16T14:31:23.961+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Processing POM file: C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\test.xml
+2024-07-16T14:31:23.961+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\test.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:31:24.172+05:30 ERROR 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Failed to execute Maven command. Exit code: 1. Error: POM file "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\test.xml" specified the -f/--file command-line argument does not exist 
+
+2024-07-16T14:31:24.178+05:30 ERROR 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] c.tplu.controller.FileUploadController   : Error during file processing: Failed to execute Maven command. Exit code: 1. Error: POM file "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\test.xml" specified the -f/--file command-line argument does not exist 
+
+2024-07-16T14:31:44.428+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:31:44.428+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Processing POM file: C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml
+2024-07-16T14:31:44.428+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:31:51.112+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:31:51.113+05:30  INFO 4120 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:33:04.319+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 24732 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T14:33:04.322+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T14:33:06.430+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T14:33:06.452+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T14:33:06.452+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T14:33:06.562+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T14:33:06.563+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2132 ms
+2024-07-16T14:33:07.256+05:30  WARN 24732 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T14:33:07.396+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T14:33:07.412+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 4.152 seconds (process running for 4.846)
+2024-07-16T14:33:10.897+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T14:33:10.897+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T14:33:10.901+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2024-07-16T14:33:11.174+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:33:11.182+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Processing POM file: C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml
+2024-07-16T14:33:11.182+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:33:17.247+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:33:17.263+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:33:20.048+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-thymeleaf" -DdepVersion="3.3.1" 
+2024-07-16T14:33:25.604+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-thymeleaf to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-thymeleaf:jar:3.3.0 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.009 s
+[INFO] Finished at: 2024-07-16T14:33:25+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:33:25.604+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T14:33:25.636+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-thymeleaf" -DdepVersion="3.3.1" 
+2024-07-16T14:33:30.615+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-thymeleaf to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-thymeleaf:jar:3.3.1 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.172 s
+[INFO] Finished at: 2024-07-16T14:33:30+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:33:30.616+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T14:39:48.840+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:39:48.840+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Processing POM file: C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml
+2024-07-16T14:39:48.840+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:39:54.663+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:39:54.663+05:30  INFO 24732 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:43:04.196+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 10844 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T14:43:04.200+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T14:43:06.302+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T14:43:06.324+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T14:43:06.324+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T14:43:06.419+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T14:43:06.420+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2119 ms
+2024-07-16T14:43:07.074+05:30  WARN 10844 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T14:43:07.206+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T14:43:07.218+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 3.991 seconds (process running for 4.714)
+2024-07-16T14:43:27.611+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T14:43:27.611+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T14:43:27.611+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-16T14:43:27.867+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:43:27.875+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Processing POM file: C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml
+2024-07-16T14:43:27.876+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:43:33.631+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:43:33.644+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:43:36.845+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-logging" -DdepVersion="3.3.1" 
+2024-07-16T14:43:42.278+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-logging to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-logging:jar:3.3.0 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.606 s
+[INFO] Finished at: 2024-07-16T14:43:42+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:43:42.278+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T14:43:42.294+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-logging" -DdepVersion="3.3.1" 
+2024-07-16T14:43:47.334+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-logging to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-logging:jar:3.3.1 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.195 s
+[INFO] Finished at: 2024-07-16T14:43:47+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:43:47.334+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T14:45:12.149+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:45:12.149+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Processing POM file: C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml
+2024-07-16T14:45:12.149+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:45:18.006+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:45:18.006+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-9] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:46:16.968+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:46:16.968+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Processing POM file: C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml
+2024-07-16T14:46:16.968+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:46:22.233+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:46:22.233+05:30  INFO 10844 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:47:56.856+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Starting ThirdPartyLibraryUpgrade using Java 22.0.1 with PID 20828 (C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\target\classes started by gkumar12 in C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend)
+2024-07-16T14:47:56.861+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : No active profile set, falling back to 1 default profile: "default"
+2024-07-16T14:47:59.413+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 9001 (http)
+2024-07-16T14:47:59.446+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-07-16T14:47:59.446+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.25]
+2024-07-16T14:47:59.615+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-07-16T14:47:59.616+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2649 ms
+2024-07-16T14:48:00.327+05:30  WARN 20828 --- [ThirdPartyLibraryUpgrade] [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates, check your Thymeleaf configuration, or set spring.thymeleaf.check-template-location=false)
+2024-07-16T14:48:00.488+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 9001 (http) with context path '/'
+2024-07-16T14:48:00.500+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [main] com.tplu.ThirdPartyLibraryUpgrade        : Started ThirdPartyLibraryUpgrade in 4.645 seconds (process running for 5.351)
+2024-07-16T14:48:08.538+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-07-16T14:48:08.538+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-07-16T14:48:08.538+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2024-07-16T14:48:08.798+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File path received: pom.xml
+2024-07-16T14:48:08.801+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Processing POM file: C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml
+2024-07-16T14:48:08.801+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : [cmd.exe, /c, mvn -f C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml versions:display-dependency-updates > test.txt]
+2024-07-16T14:48:14.934+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] com.tplu.service.FileProcessingService   : Maven command executed successfully.
+2024-07-16T14:48:14.950+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-2] c.tplu.controller.FileUploadController   : File processed successfully.
+2024-07-16T14:48:21.525+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="jakarta.servlet:jakarta.servlet-api" -DdepVersion="6.1.0" 
+2024-07-16T14:48:26.634+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Updated jakarta.servlet:jakarta.servlet-api to 6.1.0: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated jakarta.servlet:jakarta.servlet-api:jar:5.0.0 to version 6.1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.855 s
+[INFO] Finished at: 2024-07-16T14:48:26+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:48:26.634+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-logging" -DdepVersion="3.3.1" 
+2024-07-16T14:48:31.867+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-logging to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-logging:jar:3.3.0 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.197 s
+[INFO] Finished at: 2024-07-16T14:48:31+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:48:31.867+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-4] com.tplu.service.FileProcessingService   : Dependency update completed.
+2024-07-16T14:48:31.900+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="jakarta.servlet:jakarta.servlet-api" -DdepVersion="6.1.0" 
+2024-07-16T14:48:36.525+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Updated jakarta.servlet:jakarta.servlet-api to 6.1.0: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated jakarta.servlet:jakarta.servlet-api:jar:6.1.0 to version 6.1.0
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.848 s
+[INFO] Finished at: 2024-07-16T14:48:36+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:48:36.526+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Executing command: mvnw.cmd -f "C:\Users\gkumar12\IdeaProjects\ThirdPartyLibraryUpgrade_backend\pom.xml" versions:use-dep-version -Dincludes="org.springframework.boot:spring-boot-starter-logging" -DdepVersion="3.3.1" 
+2024-07-16T14:48:41.191+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Updated org.springframework.boot:spring-boot-starter-logging to 3.3.1: 
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
+[INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
+[INFO] --------------------------------[ jar ]---------------------------------
+[INFO] 
+[INFO] --- versions-maven-plugin:2.17.0:use-dep-version (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+[INFO] Updated org.springframework.boot:spring-boot-starter-logging:jar:3.3.1 to version 3.3.1
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  1.979 s
+[INFO] Finished at: 2024-07-16T14:48:41+05:30
+[INFO] ------------------------------------------------------------------------
+
+2024-07-16T14:48:41.191+05:30  INFO 20828 --- [ThirdPartyLibraryUpgrade] [http-nio-9001-exec-6] com.tplu.service.FileProcessingService   : Dependency update completed.

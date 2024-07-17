@@ -1,5 +1,4 @@
 package com.tplu.controller;
-
 import com.tplu.model.JarInfo;
 import com.tplu.service.FileProcessingService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -10,6 +9,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api")
+@CrossOrigin(origins = "http://localhost:3000")
 public class MainController {
 
     private final FileProcessingService fileProcessingService;
