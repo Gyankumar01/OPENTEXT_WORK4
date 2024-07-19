@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import axios from 'axios';
 import './ResultComponent.css';
 
-const ResultComponent = ({ jarInfos, onUpdate }) => {
+const ResultComponent = ({ jarInfos, onUpdate, filePath }) => {
     const [selectedJars, setSelectedJars] = useState([]);
     const [statusMessage, setStatusMessage] = useState('');
     const [isLoading, setIsLoading] = useState(false);
@@ -13,8 +13,8 @@ const ResultComponent = ({ jarInfos, onUpdate }) => {
 
     const handleSelectJar = (jar) => {
         setSelectedJars(prevSelected =>
-            prevSelected.some(item => item.artifactId === jar.artifactId)
-                ? prevSelected.filter(item => item.artifactId !== jar.artifactId)
+            prevSelected.some(item => item.artifact === jar.artifact)
+                ? prevSelected.filter(item => item.artifact !== jar.artifact)
                 : [...prevSelected, jar]
         );
     };
@@ -31,7 +31,7 @@ const ResultComponent = ({ jarInfos, onUpdate }) => {
         setIsLoading(true);
         setStatusMessage('');
         try {
-            const response = await axios.post('http://localhost:9001/api/update', selectedJars, {
+            const response = await axios.post('http://localhost:9001/api/updateDependencies', selectedJars, {
                 headers: {
                     'Content-Type': 'application/json'
                 }
@@ -48,6 +48,9 @@ const ResultComponent = ({ jarInfos, onUpdate }) => {
     return (
         <div className="container">
             <h2>Third Party Library Upgrade</h2>
+            <div className="file-path">
+                <p>File Path: {filePath}</p>
+            </div>
             <div className="table-container">
                 <table>
                     <thead>
@@ -59,22 +62,22 @@ const ResultComponent = ({ jarInfos, onUpdate }) => {
                                     onChange={handleSelectAll}
                                 />
                             </th>
-                            <th>Property</th>
+                            <th>Artifact</th>
                             <th>Current Version</th>
-                            <th>Newer Version</th>
+                            <th>New Version</th>
                         </tr>
                     </thead>
                     <tbody>
                         {jarInfos.map((jar) => (
-                            <tr key={jar.artifactId}>
+                            <tr key={jar.artifact}>
                                 <td>
                                     <input
                                         type="checkbox"
-                                        checked={selectedJars.some(item => item.artifactId === jar.artifactId)}
+                                        checked={selectedJars.some(item => item.artifact === jar.artifact)}
                                         onChange={() => handleSelectJar(jar)}
                                     />
                                 </td>
-                                <td>{jar.artifactId}</td>
+                                <td>{jar.artifact}</td>
                                 <td>{jar.currentVersion}</td>
                                 <td>{jar.newVersion}</td>
                             </tr>

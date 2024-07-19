@@ -18,10 +18,10 @@ function App() {
                     'Content-Type': 'application/json'
                 }
             });
-            // Handle successful update
+
         } catch (error) {
             console.error('Failed to update dependencies:', error);
-            // Handle error state
+
         }
     };
 

@@ -1,4 +1,12 @@
 [INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for org.example:ThirdPartyLibraryUpgrade_backend:jar:1.0-SNAPSHOT
+[WARNING] 'dependencies.dependency.(groupId:artifactId:type:classifier)' must be unique: org.springframework.boot:spring-boot-starter-web:jar -> duplicate declaration of version 3.3.0 @ line 61, column 21
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
 [INFO] 
 [INFO] ------------< org.example:ThirdPartyLibraryUpgrade_backend >------------
 [INFO] Building ThirdPartyLibraryUpgrade_backend 1.0-SNAPSHOT
@@ -6,14 +14,33 @@
 [INFO] --------------------------------[ jar ]---------------------------------
 [INFO] 
 [INFO] --- versions:2.17.0:display-dependency-updates (default-cli) @ ThirdPartyLibraryUpgrade_backend ---
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/maven-metadata.xml
+Downloading from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/maven-metadata.xml
+Progress (1): 632 BProgress (2): 632 B | 972 BProgress (3): 632 B | 972 B | 1.4/5.3 kBProgress (4): 632 B | 972 B | 1.4/5.3 kB | 1.4/5.3 kBProgress (4): 632 B | 972 B | 2.8/5.3 kB | 1.4/5.3 kBProgress (4): 632 B | 972 B | 2.8/5.3 kB | 2.8/5.3 kBProgress (4): 632 B | 972 B | 4.1/5.3 kB | 2.8/5.3 kBProgress (4): 632 B | 972 B | 4.1/5.3 kB | 4.1/5.3 kBProgress (4): 632 B | 972 B | 5.3 kB | 4.1/5.3 kB    Progress (4): 632 B | 972 B | 5.3 kB | 5.3 kB    Progress (5): 632 B | 972 B | 5.3 kB | 5.3 kB | 1.4/6.7 kBProgress (5): 632 B | 972 B | 5.3 kB | 5.3 kB | 2.8/6.7 kBProgress (5): 632 B | 972 B | 5.3 kB | 5.3 kB | 4.1/6.7 kBProgress (5): 632 B | 972 B | 5.3 kB | 5.3 kB | 5.5/6.7 kBProgress (5): 632 B | 972 B | 5.3 kB | 5.3 kB | 6.7 kB                                                          Downloaded from central: https://repo.maven.apache.org/maven2/javax/servlet/javax.servlet-api/maven-metadata.xml (972 B at 1.2 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-core/maven-metadata.xml (5.3 kB at 6.8 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-annotations/maven-metadata.xml (5.3 kB at 6.7 kB/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/jakarta/servlet/jakarta.servlet-api/maven-metadata.xml (632 B at 798 B/s)
+Downloaded from central: https://repo.maven.apache.org/maven2/com/fasterxml/jackson/core/jackson-databind/maven-metadata.xml (6.7 kB at 8.5 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/maven-metadata.xml
+Progress (1): 1.4/2.1 kBProgress (1): 2.1 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/httpcomponents/httpclient/maven-metadata.xml (2.1 kB at 95 kB/s)
 [INFO] The following dependencies in Dependencies have newer versions:
+[INFO]   com.fasterxml.jackson.core:jackson-annotations ...... 2.14.0 -> 2.17.2
+[INFO]   com.fasterxml.jackson.core:jackson-core ............. 2.14.0 -> 2.17.2
+[INFO]   com.fasterxml.jackson.core:jackson-databind ......... 2.14.0 -> 2.17.2
 [INFO]   jakarta.servlet:jakarta.servlet-api ................... 5.0.0 -> 6.1.0
+[INFO]   org.apache.httpcomponents:httpclient ................ 4.5.13 -> 4.5.14
 [INFO]   org.springframework.boot:spring-boot-starter-logging ...
-[INFO]                                                           3.3.0 -> 3.3.1
+[INFO]                                                           3.3.1 -> 3.3.2
+[INFO]   org.springframework.boot:spring-boot-starter-thymeleaf ...
+[INFO]                                                           3.3.0 -> 3.3.2
+[INFO]   org.springframework.boot:spring-boot-starter-web ...... 3.3.0 -> 3.3.2
 [INFO] 
 [INFO] ------------------------------------------------------------------------
 [INFO] BUILD SUCCESS
 [INFO] ------------------------------------------------------------------------
-[INFO] Total time:  1.988 s
-[INFO] Finished at: 2024-07-16T14:48:14+05:30
+[INFO] Total time:  3.030 s
+[INFO] Finished at: 2024-07-19T11:39:46+05:30
 [INFO] ------------------------------------------------------------------------
