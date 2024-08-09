@@ -1,57 +1,334 @@
-.container {
+/* File Upload Container */
+.file-upload-container {
     text-align: center;
     padding: 20px;
-    background-color: #f0f8ff; /* light blue background color */
+    background-color: white; /* Turquoise color */
 }
 
+/* File Upload Section */
+.file-upload {
+    margin-top: 20px;
+}
+
+.file-upload input[type="text"] {
+    padding: 10px;
+    font-size: 16px;
+    width: 100%;
+    max-width: 300px;
+    margin-right: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.file-upload button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: none;
+    background-color: #007bff; /* Bootstrap primary blue */
+    color: white;
+    cursor: pointer;
+}
+
+.file-upload button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+/* Results Container */
+.container {
+    background-color: #ffffff; /* White background for the container */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    overflow: hidden;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+/* Table Container */
 .table-container {
     margin-top: 20px;
-    overflow-x: auto;
+    overflow-x: auto; /* Allow horizontal scrolling if needed */
 }
 
 table {
-    margin: 0 auto;
     border-collapse: collapse;
-    width: 80%;
+    width: 100%; /* Full width of container */
 }
 
 th, td {
     border: 1px solid #ddd;
-    padding: 8px;
+    padding: 12px;
+    text-align: left;
 }
 
 th {
     background-color: #007bff;
     color: white;
-    text-align: center;
 }
 
 td {
-    text-align: center;
+    font-size: 16px;
 }
 
-.update-button {
-    padding: 10px 20px;
+/* Hide Table When Update is Complete */
+.hidden {
+    display: none;
+}
+
+/* Buttons */
+button {
+    padding: 12px 24px;
     font-size: 16px;
     border-radius: 4px;
     border: none;
     background-color: #007bff;
     color: white;
     cursor: pointer;
+    transition: background-color 0.3s ease;
     margin-top: 20px;
+    display: block; /* Center button */
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.update-button:disabled {
+button:hover {
+    background-color: #0056b3;
+}
+
+button:disabled {
     background-color: #aaa;
     cursor: not-allowed;
 }
 
-.loader {
-    margin-top: 20px;
-}
-
+/* Status Message */
 .status-message {
     margin-top: 20px;
     font-size: 16px;
     color: #ff0000;
+    font-weight: bold;
+    text-align: center;
 }
+
+/* Success Message */
+.success-message {
+    color: #28a745; /* Bootstrap success green */
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+    background-color: #d4edda;
+    border: 1px solid #c3e6cb;
+    border-radius: 8px;
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+    .file-upload input[type="text"], .file-upload button {
+        width: 100%;
+        margin-right: 0;
+        display: block;
+        margin: 10px auto;
+    }
+
+    .file-upload-container {
+        padding: 10px;
+    }
+
+    .container {
+        padding: 10px;
+    }
+
+    table {
+        width: 100%;
+        font-size: 14px;
+    }
+
+    .no-versions {
+        background-color: #f9d6d5; /* Light red background for rows with no versions */
+        color: #a94442; /* Dark red text color */
+    }
+
+    .no-versions select,
+    .no-versions input[type="checkbox"] {
+        cursor: not-allowed;
+        opacity: 0.6;
+    }
+}
+
+/* Loader (GIF) */
+.loader {
+    width: 50px; /* Adjust size as needed */
+    height: 50px; /* Adjust size as needed */
+    display: block;
+    margin: 20px auto; /* Center loader and add space above/below */
+    background-size: contain;
+}
+ /* File Upload Container */
+ .file-upload-container {
+     text-align: center;
+     padding: 20px;
+     background-color: white; /* Turquoise color */
+ }
+
+ /* File Upload Section */
+ .file-upload {
+     margin-top: 20px;
+ }
+
+ .file-upload input[type="text"] {
+     padding: 10px;
+     font-size: 16px;
+     width: 100%;
+     max-width: 300px;
+     margin-right: 10px;
+     border-radius: 4px;
+     border: 1px solid #ccc;
+ }
+
+ .file-upload button {
+     padding: 10px 20px;
+     font-size: 16px;
+     border-radius: 4px;
+     border: none;
+     background-color: #007bff; /* Bootstrap primary blue */
+     color: white;
+     cursor: pointer;
+ }
+
+ .file-upload button:disabled {
+     background-color: #aaa;
+     cursor: not-allowed;
+ }
+
+ /* Results Container */
+ .container {
+     background-color: #ffffff; /* White background for the container */
+     border-radius: 8px;
+     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+     padding: 20px;
+     overflow: hidden;
+     max-width: 100%;
+     margin: 0 auto;
+ }
+
+ /* Table Container */
+ .table-container {
+     margin-top: 20px;
+     overflow-x: auto; /* Allow horizontal scrolling if needed */
+ }
+
+ table {
+     border-collapse: collapse;
+     width: 100%; /* Full width of container */
+ }
+
+ th, td {
+     border: 1px solid #ddd;
+     padding: 12px;
+     text-align: left;
+ }
+
+ th {
+     background-color: #007bff;
+     color: white;
+ }
+
+ td {
+     font-size: 16px;
+ }
+
+ /* Hide Table When Update is Complete */
+ .hidden {
+     display: none;
+ }
+
+ /* Buttons */
+ button {
+     padding: 12px 24px;
+     font-size: 16px;
+     border-radius: 4px;
+     border: none;
+     background-color: #007bff;
+     color: white;
+     cursor: pointer;
+     transition: background-color 0.3s ease;
+     margin-top: 20px;
+     display: block; /* Center button */
+     margin-left: auto;
+     margin-right: auto;
+ }
+
+ button:hover {
+     background-color: #0056b3;
+ }
+
+ button:disabled {
+     background-color: #aaa;
+     cursor: not-allowed;
+ }
+
+ /* Status Message */
+ .status-message {
+     margin-top: 20px;
+     font-size: 16px;
+     color: #ff0000;
+     font-weight: bold;
+     text-align: center;
+ }
+
+ /* Success Message */
+ .success-message {
+     color: #28a745; /* Bootstrap success green */
+     font-size: 18px;
+     font-weight: bold;
+     text-align: center;
+     padding: 20px;
+     background-color: #d4edda;
+     border: 1px solid #c3e6cb;
+     border-radius: 8px;
+ }
+
+ /* Responsive Adjustments */
+ @media (max-width: 768px) {
+     .file-upload input[type="text"], .file-upload button {
+         width: 100%;
+         margin-right: 0;
+         display: block;
+         margin: 10px auto;
+     }
+
+     .file-upload-container {
+         padding: 10px;
+     }
+
+     .container {
+         padding: 10px;
+     }
+
+     table {
+         width: 100%;
+         font-size: 14px;
+     }
+
+     .no-versions {
+         background-color: #f9d6d5; /* Light red background for rows with no versions */
+         color: #a94442; /* Dark red text color */
+     }
+
+     .no-versions select,
+     .no-versions input[type="checkbox"] {
+         cursor: not-allowed;
+         opacity: 0.6;
+     }
+ }
+
+ /* Loader (GIF) */
+ .loader {
+     width: 50px; /* Adjust size as needed */
+     height: 50px; /* Adjust size as needed */
+     display: block;
+     margin: 20px auto; /* Center loader and add space above/below */
+     background-size: contain;
+ }
